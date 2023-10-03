@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import PicksForYou from '@/components/PicksForYou';
+// import PicksForYou from '@/components/PicksForYou';
 import { fetchDataFromApi } from '@/utils/api';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../../store/cartSlice';
